@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaton Totem</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images\header.png" alt="header">
+    </header>
+
+    <main>
+        <div id="elements">
+
+            <img src="images/sideL.png" alt="cat" id="catL">
+
+            <div id="blocCentral">
+
+                <button id="chooseCat" onclick="showHideElements()">Synergie féline</button>
+
+                <div id="resultBloc">
+                    <img id="image" src="" alt="" >
+                    <audio id="pop" src="sounds/pop.wav"></audio>
+
+                    <h2 id="title"></h2>
+
+                    <p id="label"></p>
+
+                    <div id="icons">
+                        <div id="icon">
+                            <img id="homeIcon" src="images/home.png" alt="home" onclick="showHideElements()">
+                        </div>
+                        <div id="icon">
+                            <img id="refreshIcon" src="images/refresh.png" alt="refresh" onclick="randomizerAnimation()">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <img src="images/sideL.png" alt="cat" id="catD">
+        </div>
+        
+    </main>
+
+</body>
+
+</html>
+

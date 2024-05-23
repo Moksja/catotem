@@ -1,0 +1,85 @@
+/* gestion images */
+body {
+    background-image: url("images/background.png");
+    font-family: 'Basic Text';
+}
+
+#catD {
+    transform: scaleX(-1);
+}
+
+/* #icons {
+
+} */
+
+/* positionnement */ 
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-bottom: 2%;
+    
+}
+
+#elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+#blocCentral {
+    width: 600px;
+    align-items: center;
+}
+
+#icons {
+    display: none;
+    justify-content: center;
+}
+
+#icons img {
+    display: inline-block;
+    width: 50px;
+}
+
+
+/* style objets */
+@font-face {
+    font-family: 'Little Paws';
+    src: url(fonts/LittlePaws.ttf) format('truetype');
+    font-family: 'Basic Text';
+    src: url(fonts/BasicText.ttf) format('truetype');
+}
+
+#image {
+    width: 150px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button {
+    background-color: #d33d77;
+    box-shadow: 0px 4px 8px #d33d76b2;
+
+    border: 0px;
+    border-radius: 50px;
+    margin-inline: auto;
+    height: 80px;
+    width: 200px;
+
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+
+    display: block;
+}
+
+#resultBloc {
+    display: "none";
+}
+
+h2 {
+    color: #d33d77;
+}
